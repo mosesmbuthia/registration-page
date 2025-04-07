@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <Grid container sx={{ height: '100vh' }}>
+    <Grid container sx={{ height: '100vh', justifyContent:'center'}}>
       <Grid sx={{
           backgroundImage: 'linear-gradient(to bottom right,rgb(6, 6, 6),rgb(243, 67, 67))',
           color: '#fff',
