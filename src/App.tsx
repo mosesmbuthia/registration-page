@@ -3,7 +3,7 @@ import { Grid } from '@mui/material';
 
 
 import { Facebook, Google, LinkedIn } from '@mui/icons-material';
-import './App.css';
+
 
 function App() {
   return (
@@ -65,7 +65,7 @@ function App() {
           or use your email for registration:
         </Typography>
 
-        <Box sx={{justifyContent:'center', alignItems:'center' }} component="form" noValidate autoComplete="off">
+        <Box sx={{justifyContent:'center', alignItems:'center' }} component="form" autoComplete="off">
           <TextField sx={{ width: '75%' }} label="Name" margin="normal" required />
           <TextField sx={{ width: '75%' }} label="Email" type="email" margin="normal" required />
           <TextField sx={{ width: '75%' }} label="Password" type="password" margin="normal" required />
